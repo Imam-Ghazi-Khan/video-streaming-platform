@@ -1,9 +1,9 @@
 
 const Header = () => {
   return (
-    <nav className="grid grid-flow-col items-center justify-between py-4 font-sans bg-black">
+    <nav className="grid grid-flow-col items-center justify-between py-4 font-sans ">
     <div className="flex items-center">
-      <span className="material-symbols-outlined ml-2 text-2xl cursor-pointer text-blue-200">menu</span>
+      {/* <span className="material-symbols-outlined ml-2 text-2xl cursor-pointer text-blue-200">menu</span> */}
       <div className="flex items-center text-blue-300"> 
         <span className="ml-4 text-4xl material-symbols-outlined ">play_circle</span>
         <p className="md:block text-3xl hidden">Vibe&Chill</p>
