@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { YOUTUBE_API_URL } from "../utils/constants";
-import dummyData from "../mocks/dummyData";
 import { useDispatch } from "react-redux";
 import { addVideos } from "../utils/videoSlice";
 import { useSelector } from "react-redux";

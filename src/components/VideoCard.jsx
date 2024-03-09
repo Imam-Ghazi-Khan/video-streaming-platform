@@ -1,6 +1,6 @@
 const VideoCard = ({ video }) => {
     return (
-      <a className="p-4 rounded-lg  text-white" href={`/video?videoId=${video.id}`} target="_blank" rel="noopener noreferrer">
+      <div className="p-4 rounded-lg  text-white">
         <div className="video cursor-pointer">
           <div className="img-container relative">
             <img className="thumbnail rounded-lg" src={video.snippet.thumbnails.medium.url} alt="" />
@@ -16,7 +16,7 @@ const VideoCard = ({ video }) => {
             </div>
           </div>
         </div>
-      </a>
+      </div>
     );
   };
 
